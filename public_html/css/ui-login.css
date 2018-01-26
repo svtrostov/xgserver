@@ -1,0 +1,144 @@
+body{
+	background:#363d47 url(../images/background.jpg) top center no-repeat fixed;
+	font-family:Tahoma, Verdana, Arial, sans-serif;
+	font-size:12px;color:#fff;
+}
+
+.login_area{
+	width:280px;
+	height:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-140px;
+	margin-top:-150px;
+}
+
+.logo{
+	width:auto;
+	height:96px;
+	display:block;
+	margin:0 auto;
+	color:#cfd7e4;
+	font-size:26px;
+	text-shadow:1px 1px 0 #000;
+	text-transform:uppercase;
+	line-height:38px;
+	text-align: center;
+	/*background:url(../images/logo.png) center bottom no-repeat;*/
+}
+
+
+.loginbox{
+	background:url(../images/loginbox_bg.png) repeat;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border-bottom:1px solid #58626f;
+	border-right:1px solid #58626f;
+	margin:10px 0 0;
+	padding:15px;
+	line-height:20px;
+}
+
+.loginbox .username_field{
+	width:250px;
+	height:36px;
+}
+
+.loginbox .password_field{
+	width:250px;
+	height:36px;
+	margin:5px 0 0;
+}
+
+
+.loginbox .username_field input{
+	width:250px;
+	height:36px;
+	text-shadow:1px 1px 0 #000;
+	color:#fff;
+	overflow:hidden;
+	padding:0 0 0 35px;
+	background:url(../images/loginbox_username.png) no-repeat;
+}
+
+
+.loginbox .password_field input{
+	width:250px;
+	height:36px;
+	text-shadow:1px 1px 0 #000;
+	color:#fff;
+	overflow:hidden;
+	padding:0 0 0 35px;
+	background:url(../images/loginbox_password.png) no-repeat;
+}
+
+
+.loginbox .buttonline{
+	overflow:hidden;
+	margin:5px 0 0;
+}
+
+
+.loginbutton{
+	display:block;
+	height:32px;
+	background:url(../images/form_button.png) top repeat-x;
+	color:#fff;
+	text-align:center;
+	text-shadow:1px 1px 0 #000;
+	text-decoration:none;
+	line-height:30px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #2a3139;
+	-webkit-box-shadow:0 1px 1px #323a43;
+	-moz-box-shadow:0 1px 1px #323a43;
+	box-shadow:0 1px 1px #323a43;
+	padding:0px 10px;
+	float: left;
+}
+
+.loginbutton:hover{
+	background:url(../images/form_button.png) bottom repeat-x;
+}
+
+.loginbutton:active{
+	line-height:32px;
+}
+
+
+.buttonline label{
+	float: right;
+	line-height:30px;
+}
+
+
+div.login_error{
+	height:50px;
+	margin-top:5px;
+	margin-bottom:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #571c1c;
+	background:url(../images/alert_bg.png) top repeat-x;
+	-webkit-box-shadow:1px 2px 2px #323a43;
+	-moz-box-shadow:1px 2px 2px #323a43;
+	box-shadow:1px 2px 2px #323a43;
+	position:relative;
+}
+
+div.login_error h3{
+	height:50px;
+	background:url(../images/alert_icons.png) left top no-repeat;
+	font-size:12px;
+	line-height:18px;
+	padding-left:50px;
+	padding-top:5px;
+	color:#f7c6c6;
+	//text-shadow:1px 1px 0 #000;
+	margin:0;
+}
