@@ -1,0 +1,265 @@
+/**********************************************************************
+ * XGAME SERVER
+ * Языковые настройки - Пользователи
+/**********************************************************************/
+{/*LNG BEGIN*/
+
+
+	////////////////////////////////////////////////////////////////////
+	//Ошибки при работе с пользователями :: /users/errors
+	"errors":{
+
+		//Нет ошибок :: /users/errors/none
+		"none":{
+			"en": "No errors",
+			"ru": "Нет ошибок"
+		},
+
+		//Ошибка :: /users/errors/other
+		"other":{
+			"en": "Internal error",
+			"ru": "Внутренняя ошибка"
+		},
+
+		//Пользователь не найден :: /users/errors/notfound
+		"notfound":{
+			"en": "User not found",
+			"ru": "Пользователь не найден"
+		},
+
+		"login":{
+			"empty":{	// :: /users/errors/login/empty
+				"en": "Login is empty",
+				"ru": "Не задан логин"
+			},
+			"incorrect":{	// :: /users/errors/login/incorrect
+				"en": "Login is incorrect",
+				"ru": "Логин задан неверно"
+			},
+			"short":{	// :: /users/errors/login/short
+				"en": "Login is too short, login length between 5 to 32 symbols",
+				"ru": "Логин слишком короткий, длинна логина от 5 до 32 символов"
+			},
+			"long":{	// :: /users/errors/login/long
+				"en": "Login is too long, login length between 5 to 32 symbols",
+				"ru": "Логин слишком длинный, длинна логина от 5 до 32 символов"
+			},
+			"busy":{	// :: /users/errors/login/busy
+				"en": "Login already exists",
+				"ru": "Логин уже существует"
+			},
+		},
+
+		"password":{
+			"empty":{	// :: /users/errors/password/empty
+				"en": "Password is empty",
+				"ru": "Не задан пароль"
+			},
+			"incorrect":{	// :: /users/errors/password/incorrect
+				"en": "Password is incorrect",
+				"ru": "Пароль задан неверно"
+			},
+			"short":{	// :: /users/errors/password/short
+				"en": "Password is too short, password length between 5 to 32 symbols",
+				"ru": "Логин слишком короткий, длинна логина от 5 до 32 символов"
+			},
+			"long":{	// :: /users/errors/password/long
+				"en": "Password is too long, password length between 5 to 32 symbols",
+				"ru": "Логин слишком длинный, длинна логина от 5 до 32 символов"
+			}
+		},
+
+		"username":{
+			"empty":{	// :: /users/errors/username/empty
+				"en": "Username is empty",
+				"ru": "Не задано имя пользователя"
+			},
+			"incorrect":{	// :: /users/errors/username/incorrect
+				"en": "Username is incorrect",
+				"ru": "Имя пользователя задано неверно"
+			},
+			"long":{	// :: /users/errors/username/long
+				"en": "User name is too long, name length between 3 to 128 symbols",
+				"ru": "Имя пользователя слишком длинное, допустимая длинна от 3 до 128 символов"
+			}
+		},
+
+		"email":{
+			"empty":{	// :: /users/errors/email/empty
+				"en": "E-Mail is empty",
+				"ru": "Не задан адрес электронной почты"
+			},
+			"incorrect":{	// :: /users/errors/email/incorrect
+				"en": "E-Mail is incorrect",
+				"ru": "Адрес электронной почты задан неверно"
+			},
+			"long":{	// :: /users/errors/email/long
+				"en": "Email is too long, email length between 5 to 32 symbols",
+				"ru": "Адрес электронной почты слишком длинный, допустимая длинна до 128 символов"
+			}
+		},
+
+		"phone":{
+			"empty":{	// :: /users/errors/phone/empty
+				"en": "Phone number is empty",
+				"ru": "Не задан номер телефона"
+			},
+			"incorrect":{	// :: /users/errors/phone/incorrect
+				"en": "Phone number is incorrect",
+				"ru": "Номер телефона задан неверно"
+			}
+		}
+
+	},//errors
+
+
+	////////////////////////////////////////////////////////////////////
+	//Страница входа :: /users/login
+	"login":{
+
+		//Заголовок страницы :: /users/login/title
+		"title":{
+			"en": "Login",
+			"ru": "Вход"
+		},
+
+		//Форма ввода логина и пароля :: /users/login/form
+		"form":{
+
+			//Заголовок логин формы :: /users/login/form/title
+			"title":{
+				"en": "Enter",
+				"ru": "Войдите"
+			},
+
+			//Информационное сообщение :: /users/login/form/info
+			"info": {
+				"en": "Please enter below your's username and password",
+				"ru": "Для входа введите Ваши имя пользователя и пароль в поля ниже"
+			},
+
+			//Поле ввода имени пользователя :: /users/login/form/login
+			"login":{
+				"en": "Username",
+				"ru": "Имя пользователя"
+			},
+
+			//Поле ввода пароля :: /users/login/form/password
+			"password":{
+				"en": "Password",
+				"ru": "Пароль"
+			},
+
+			//Кнопка подтверждения формы :: /users/login/form/submit
+			"submit":{
+				"en": "Login",
+				"ru": "Вход"
+			}
+
+		},//form
+
+		//Статус аутентификации :: /users/login/auth
+		"auth":{
+
+			"none":{
+				"en": "Not authenticated",
+				"ru": "Не уатентифицирован"
+			},
+
+			//Ошибка аутентификации :: /users/login/auth/error
+			"auth":{
+				"en": "Authentication error",
+				"ru": "Ошибка аутентификации"
+			},
+
+			//Не заданы логин или пароль :: /users/login/auth/empty
+			"empty": {
+				"en": "Please enter your username and / or password",
+				"ru": "Пожалуйста введите Ваши имя пользователя и/или пароль"
+			},
+
+			//Неправильно указаны имя пользователя или пароль :: /users/login/auth/exists
+			"exists":{
+				"en": "Incorrect username and / or password",
+				"ru": "Неправильно указаны имя пользователя и/или пароль"
+			},
+
+			//Неправильно указаны имя пользователя или пароль :: /users/login/auth/incorrect
+			"incorrect":{
+				"en": "Incorrect username and / or password",
+				"ru": "Неправильно указаны имя пользователя и/или пароль"
+			},
+
+			//Учетная запись заблокирована :: /users/login/auth/ulocked
+			"ulocked":{
+				"en": "Your username is blocked",
+				"ru": "Ваша учетная запись заблокирована"
+			},
+
+			//Учетная запись не привязана к какому-либо счету :: /users/login/auth/account
+			"untied":{
+				"en": "Your username is not tied to any account",
+				"ru": "Ваша учетная запись не связана с каким-либо счетом"
+			},
+
+			//Счет заблокирован :: /users/login/auth/alocked
+			"alocked":{
+				"en": "Account is blocked",
+				"ru": "Счет заблокирован"
+			},
+
+			//Доступ к учетной записи запрещен при текущих условиях входа, при этом учетная запись не заблокирована (например, по IP адресу) :: /users/login/auth/denied
+			"denied":{
+				"en": "Access denied",
+				"ru": "Доступ запрещен"
+			},
+
+			//Время сессии истекло, требуется релогин :: /users/login/auth/expired
+			"expired":{
+				"en": "Session expired",
+				"ru": "Время сессии истекло"
+			},
+
+			//Аутентификация прошла успешно :: /users/login/auth/success
+			"success":{
+				"en": "Successful logon",
+				"ru": "Успешный вход"
+			}
+
+		}//auth
+
+	},//login
+
+
+
+	////////////////////////////////////////////////////////////////////
+	//Права доступа / группы доступа :: /users/access
+	"access":{
+
+		//Права доступа :: /users/access/rights
+		"rights":{
+			"user_management":{
+				"en": "User management",
+				"ru": "Управление пользователями"
+			}
+		},
+
+		//Группы доступа :: /users/access/groups
+		"groups":{
+
+			"admins":{
+			"en": "Administrators",
+			"ru": "Администраторы"
+			},
+
+			"support":{
+			"en": "Support",
+			"ru": "Поддержка"
+			}
+
+		}//groups
+
+
+	}//access
+
+}/*LNG END*/
